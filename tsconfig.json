@@ -1,0 +1,11 @@
+{
+  "extends": "@xstools-dev/typescript-config/base/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "paths": {
+      "@/base/*": ["./src/base/*"],
+      "@/src/*": ["./src/*"]
+    }
+  },
+  "include": ["./src", "./types", "./config"]
+}
